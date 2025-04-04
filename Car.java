@@ -12,26 +12,10 @@ public class Car {
 		this.color = color;
 	}
 
-	public int getYear() {
-		return this.year;
-	}
-
-	public Model getModel() {
-		return this.model;
-	}
-
-	public Color getColor() {
-		return this.color;
-	}
-
 	public void display() {
-		int displayYear = this.year;
-		Model displayModel = this.model;
-		Color displayColor = this.color;
-
-		System.out.println("Year: " + displayYear);
-		System.out.println("Model: " + displayModel);
-		System.out.println("Color: " + displayColor);
-
+		
+		System.out.println("Year: " + this.year);
+		System.out.println("Model: " + this.model.toString();
+		System.out.println("Color: " + this.color.toString();
 	}
 }
